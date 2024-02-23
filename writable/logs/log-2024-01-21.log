@@ -1,0 +1,9 @@
+CRITICAL - 2024-01-21 19:28:39 --> Invalid file: "nav_bar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav_bar.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('nav_bar', [], true)
+ 3 APPPATH\Controllers\User.php(8): view('nav_bar')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
